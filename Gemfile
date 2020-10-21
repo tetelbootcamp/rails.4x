@@ -1,15 +1,15 @@
 source 'https://rubygems.org'
 
-# Rails gem of the Bootstrap based admin theme SB Admin 2.
-gem 'bootstrap_sb_admin_base_v2'
-
-gem 'rails-assets-bootstrap', '3.3.7', source: 'https://rails-assets.org' 
 # Flexible authentication solution for Rails with Warden
 gem 'devise'
 # Translations for the devise gem
 gem 'devise-i18n'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
+# Rails gem of the Bootstrap based admin theme SB Admin 2.
+gem 'bootstrap_sb_admin_base_v2'
+gem 'rails-assets-bootstrap', '3.3.7', source: 'https://rails-assets.org' 
+
 # Manage Procfile-base application
 gem 'foreman'
 # Repository for collecting Locale data for Ruby on Rails I18n as well as other interesting, Rails related I18n stuff
