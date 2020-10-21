@@ -57,5 +57,8 @@ group :development do
   
   # Better error page for Rack apps
   gem 'better_errors'
+  
+  # Generate Entity-Relationship Diagrams for Rails applications
+  gem 'rails-erd'
 end
 

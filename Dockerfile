@@ -7,7 +7,10 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.lis
 
 # Instala nossas dependencias
 RUN apt-get update && apt-get install -qq -y --no-install-recommends \
-nodejs yarn build-essential libpq-dev imagemagick git-all nano
+nodejs yarn build-essential libpq-dev imagemagick git-all nano \
+aptitude
+
+RUN aptitude install graphviz -y
 
 # Instalar o sprockets para o RAILS 4
 RUN gem install sprockets -v 3.7.2
