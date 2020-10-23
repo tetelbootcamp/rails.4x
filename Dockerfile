@@ -30,5 +30,7 @@ COPY Gemfile ./
 # Seta o path para as Gems
 ENV BUNDLE_PATH /gems
 
+ENV TRUSTED_IP=172.19.0.1
+
 # Copia nosso código para dentro do container
 COPY . .
